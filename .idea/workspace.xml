@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fa875b-04b0-40a1-a551-f45e9cec0ba1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZooplaAutoTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/base/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/base/DriverContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/config/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/config/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/config/global.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/utilities/browsersutil/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/utilities/browsersutil/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/utilities/browsersutil/chromedriveroldd.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/utilities/browsersutil/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/feature/sign_in.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ManageDrivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/Base.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/framework/base/DriverContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/framework/config/ConfigReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/framework/config/Settings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/LandingPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/SignInPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/ManageDrivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -146,7 +114,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554589498141" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554590591765" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -217,6 +185,14 @@
       <option name="presentableId" value="Default" />
       <updated>1554586293449</updated>
     </task>
+    <task id="LOCAL-00001" summary="sign_in 1st commit">
+      <created>1554589676672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554589676672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -232,7 +208,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="42" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -262,6 +237,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sign_in 1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="sign_in 1st commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -274,6 +253,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/framework/config/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
