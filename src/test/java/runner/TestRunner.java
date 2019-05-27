@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 
 plugin = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
 glue = "steps",
-tags = "@Drew"
+tags = "@Uyi"
 )
 public class TestRunner {
 }
