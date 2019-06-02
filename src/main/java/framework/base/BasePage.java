@@ -204,7 +204,7 @@ public class BasePage extends Base {
         //action.moveToElement(over).moveToElement(driver.findElement(utility_commercial_uk_commercial_property_for_sale_lnk)).click().build().perform();
     }
     public static void setCPForsaleCommPropertyForSale() {
-        new WebDriverWait(driver, 120).until(ExpectedConditions.elementToBeClickable(utility_commercial_uk_commercial_property_for_sale_lnk)).click();
+        new WebDriverWait(driver, 120).until(ExpectedConditions.presenceOfElementLocated(utility_commercial_uk_commercial_property_for_sale_lnk)).click();
 
         //driver.findElement(utility_commercial_uk_commercial_property_for_sale_lnk).click();
         // String commPropertyForSaleLink="https://www.zoopla.co.uk/for-sale/commercial/";

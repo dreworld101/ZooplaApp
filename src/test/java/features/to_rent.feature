@@ -45,8 +45,8 @@ Feature:To Rent
     And click the "search button"
     Then The page displays properties to rent
     Examples:
-      | searchlocation | minprice   | maxprice   | propertytype | bedrooms |
-      | N3 2HT         | £1,000 pcm | £3,000 pcm | FLAT         | 3        |
+      | searchlocation | minprice  | maxprice  | propertytype | bedrooms |
+      | N3 2HT         | 1,000 pcm | 3,000 pcm | FLAT         | 3        |
 
 
 

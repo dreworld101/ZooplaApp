@@ -3,6 +3,7 @@ Feature: Commercial Property For sale
   Background:
     Given User is on the home page of "zoopla website"
 
+  @Drew
   Scenario: Search for Commercial property
     When User hover mouseover commercial and click "uk commercial property for sale link" on the drop down list
     Then The page displays "search for commercial properties to let across the uk"
@@ -78,8 +79,8 @@ Feature: Commercial Property For sale
     And click the "search button"
     Then The page displays "property type for sale in the location"
     Examples:
-      | searchlocation | propertytype    | units       | minunitsize | maxunitsize | minprice | maxprice   |
-      | N3 2HT         | Retail premises | Square feet | 100 ft²     | 100,000 ft² | £10,000  | £1,000,000 |
+      | searchlocation | propertytype    | units       | minunitsize | maxunitsize | minprice | maxprice  |
+      | N3 2HT         | Retail premises | Square feet | 100 ft      | 100,000 ft  | 10,000   | 1,000,000 |
 
   Scenario Outline: Commercial property for sale and select sq metres Options
     When User hover mouseover commercial and click "uk commercial property for sale link" on the drop down list
@@ -88,8 +89,8 @@ Feature: Commercial Property For sale
     And click the "search button"
     Then The page displays "property type for sale in the location"
     Examples:
-      | searchlocation | propertytype | units         | minunitsizesqmetres | maxunitsizesqmetres | minprice | maxprice   |
-      | EN10 6FH       | offices      | square metres | 100 m²              | 10,000 m²           | £10,000  | £1,000,000 |
+      | searchlocation | propertytype | units         | minunitsizesqmetres | maxunitsizesqmetres | minprice | maxprice  |
+      | EN10 6FH       | offices      | square metres | 100 m               | 10,000 m            | 10,000   | 1,000,000 |
 
 
   Scenario Outline: Advance Option to only show property for sale
@@ -102,8 +103,8 @@ Feature: Commercial Property For sale
     And click the "search button"
     Then The page displays "property type for sale in the location"
     Examples:
-      | searchlocation | propertytype    | units       | minunitsize | maxunitsize | minprice | maxprice   | distancelocation | added        | sortby       | keywords |
-      | N3 2HT         | Retail premises | Square feet | 100 ft²     | 100,000 ft² | £10,000  | £1,000,000 | Within 20 miles  | Last 30 days | Lowest price | Any      |
+      | searchlocation | propertytype    | units       | minunitsize | maxunitsize | minprice | maxprice  | distancelocation | added        | sortby       | keywords |
+      | N3 2HT         | Retail premises | Square feet | 100 ft      | 100,000 ft  | 10,000   | 1,000,000 | Within 20 miles  | Last 30 days | Lowest price | Any      |
 
 
   Scenario Outline: Advance Option  to only show business for sale
@@ -116,8 +117,8 @@ Feature: Commercial Property For sale
     And click the "search button"
     Then The page displays "property type for sale in the location"
     Examples:
-      | searchlocation | propertytype    | units       | minunitsize | maxunitsize | minprice | maxprice   | distancelocation | added        | sortby       | keywords |
-      | N3 2HT         | Retail premises | Square feet | 100 ft²     | 100,000 ft² | £10,000  | £1,000,000 | Within 20 miles  | Last 30 days | Lowest price | Any      |
+      | searchlocation | propertytype    | units       | minunitsize | maxunitsize | minprice | maxprice  | distancelocation | added        | sortby       | keywords |
+      | N3 2HT         | Retail premises | Square feet | 100 ft      | 100,000 ft  | 10,000   | 1,000,000 | Within 20 miles  | Last 30 days | Lowest price | Any      |
 
 
 

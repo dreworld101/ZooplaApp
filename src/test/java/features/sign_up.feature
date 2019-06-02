@@ -11,8 +11,8 @@ Feature: Register
     And Clicks yes on both marketing option links and click the "register button"
     Then The page displays registration successful
     Examples:
-      | registeremail   | registerpassword | aboutme             |
-      | andre02@yahoo.com | andrew123        | i'm looking to rent |
+      | registeremail     | registerpassword | aboutme             |
+      | andre08@yahoo.com | andrew123        | i'm looking to rent |
 
 
   Scenario Outline: Registration exclude marketing preference
@@ -22,7 +22,7 @@ Feature: Register
     Then Clicks no on both marketing option links and click the "register button"
     Then The page displays registration successful
     Examples:
-      | registeremail | registerpassword | aboutme             |
+      | registeremail   | registerpassword | aboutme             |
       | afe01@yahoo.com | andrew123        | i'm looking to rent |
 
 
@@ -32,5 +32,5 @@ Feature: Register
     And Enters "<registeremail>", "<registerpassword>" and click on about me drop down
     Then The page displays property status
     Examples:
-      | registeremail | registerpassword |
-      | afe@yahoo.com | andrew123        |
+      | registeremail  | registerpassword |
+      | afes@yahoo.com | andrew1234       |

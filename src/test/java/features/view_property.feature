@@ -12,7 +12,6 @@ Feature: View Home
     Examples:
       | postcode |
       | N3 2HT   |
-      | EN10 6FH |
 
   Scenario Outline: View property relationship type
     When User click on the "view my home" button
