@@ -107,7 +107,7 @@ Feature: Commercial Property For sale
       | N3 2HT         | Retail premises | Square feet | 100 ft      | 100,000 ft  | 10,000   | 1,000,000 | Within 20 miles  | Last 30 days | Lowest price | Any      |
 
 
-  Scenario Outline: Advance Option  to only show business for sale
+  Scenario Outline: Advance Opddtion  to only show business for sale
     When User hover mouseover commercial and click "uk commercial property for sale link" on the drop down list
     And User enter post code in the "<searchlocation>"
     And Enters "<propertytype>", "<units>", "<minunitsize>", "<maxunitsize>", "<minprice>", "<maxprice>"
