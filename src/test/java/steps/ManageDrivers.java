@@ -58,7 +58,7 @@ public class ManageDrivers {
             System.setProperty( "webdriver.chrome.driver", CHROME_BROWSER_PATH);
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments( "--headless" );
-            driver = new ChromeDriver( );
+            driver = new ChromeDriver( chromeOptions );
 
         } else if (p.getProperty("browser").contains( "ie" ))
 

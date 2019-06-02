@@ -63,8 +63,8 @@ public class Account {
         SignInPage.setSubmitForgotPassword();
     }
 
-    @Then("The page displayes we have sent an email to the address specified")
-    public void thePageDisplayesWeHaveSentAnEmailToTheAddressSpecified() {
+    @Then("The page displays we have sent an email to the address specified")
+    public void thePageDisplaysWeHaveSentAnEmailToTheAddressSpecified() {
         String result = getWeHaveSentAnEmailTextField();
         System.out.println("The page displays " + getWeHaveSentAnEmailTextField ());
        assertEquals(result, getWeHaveSentAnEmailTextField());

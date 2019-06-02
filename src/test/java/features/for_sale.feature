@@ -3,7 +3,7 @@ Feature: Property For sale
   Background:
     Given User is on the home page of "zoopla website"
 
-
+  @Drew
   Scenario Outline: Property for sale
     When User enter post code in the "<searchlocation>"
     And click the "search button"
@@ -39,5 +39,5 @@ Feature: Property For sale
     Then The page displays properties for sale
     Examples:
       | searchlocation | minprice | maxprice | propertytype | bedrooms |
-      | N3 2HT         | £10,000  | £950,000 | FLAT         | 3        |
+      | N3 2HT         | 10,000   | 950,000  | FLAT         | 3        |
 

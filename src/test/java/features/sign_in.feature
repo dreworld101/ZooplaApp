@@ -2,7 +2,7 @@ Feature: Login
 
   Background:
     Given User is on the home page of "zoopla website"
-
+  @Drew
   Scenario Outline: Login with remember me
     When User click on the "signin button"
     And Enters "<emailaddress>" and "<password>"
@@ -28,7 +28,7 @@ Feature: Login
     And Click on "forgotten your password" link
     And Enters "<forgotemailaddress>"
     And Click on submit forgot password button
-    Then The page displayes we have sent an email to the address specified
+    Then The page displays we have sent an email to the address specified
     Examples:
       | forgotemailaddress |
       | afens@yahoo.com    |
